@@ -27,7 +27,8 @@ const useLocalStorage = (key, initialValue) => {
 }
 
 const useDarkMode = () => {
-  const [enabled, setEnabled] = useLocalStorage("dark-theme")
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
+  const [enabled, setEnabled] = useLocalStorage("dark-theme", prefersDark)
   const isEnabled = typeof enabledState === "undefined" && enabled
 
   useEffect(() => {
