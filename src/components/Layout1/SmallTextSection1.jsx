@@ -3,7 +3,7 @@ import React from "react"
 const SmallTextSection1 = () => {
   return (
     <div className="flex flex-col p-10 border-2">
-      <h2>SmallTextSection1</h2>
+      <h2 className="heading2">SmallTextSection1</h2>
       <div className="flex gap-10">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque

@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../public/vite.svg"
+import logo from "/vite.svg"
 import ThemeIcon from "./ThemeIcon"
 
 const Nav = () => {

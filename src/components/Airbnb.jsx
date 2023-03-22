@@ -2,7 +2,7 @@ import React from "react"
 import logo from "/vite.svg"
 import airnbnblogo from "../assets/airbnb.svg"
 
-const AltNav = () => {
+const Airbnb = () => {
   return (
     <div className="m-10 pb-10 border-2 border-slate-200 rounded-xl shadow-lg">
       <div
@@ -182,4 +182,4 @@ const AltNav = () => {
   )
 }
 
-export default AltNav
+export default Airbnb
