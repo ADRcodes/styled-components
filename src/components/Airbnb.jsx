@@ -41,12 +41,12 @@ const Airbnb = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               stroke="#ffffff"
-              stroke-width="1.2"
+              strokeWidth="1.2"
               transform="rotate(0)">
               <g>
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11ZM11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C13.125 20 15.078 19.2635 16.6177 18.0319L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L18.0319 16.6177C19.2635 15.078 20 13.125 20 11C20 6.02944 15.9706 2 11 2Z"
                   fill="#ffffff"></path>
               </g>
@@ -140,8 +140,8 @@ const Airbnb = () => {
         </div>
         <div className="flex flex-col justify-center items-center mx-6 py-2 border-b-2 hover:border-opacity-100 border-opacity-0 border-neutral-300 opacity-40 dark:opacity-80 hover:opacity-100 transition-all">
           <img
-            className="dark:invert"
-            class="i1wps9q8 dir dir-ltr"
+            className="dark:invert i1wps9q8 dir dir-ltr"
+            // className="i1wps9q8 dir dir-ltr"
             src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg"
             alt=""
             width="24"
@@ -159,8 +159,8 @@ const Airbnb = () => {
         </div>
         <div className="flex flex-col justify-center items-center mx-6 py-2 border-b-2 hover:border-opacity-100 border-opacity-0 border-neutral-300 opacity-40 dark:opacity-80 hover:opacity-100 transition-all">
           <img
-            className="dark:invert"
-            class="i1wps9q8 dir dir-ltr"
+            className="dark:invert i1wps9q8 dir dir-ltr"
+            // className="i1wps9q8 dir dir-ltr"
             src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg"
             alt=""
             width="24"
@@ -169,8 +169,8 @@ const Airbnb = () => {
         </div>
         <div className="flex flex-col justify-center items-center mx-6 py-2 border-b-2 hover:border-opacity-100 border-opacity-0 border-neutral-300 opacity-40 dark:opacity-80 hover:opacity-100 transition-all">
           <img
-            className="dark:invert"
-            class="i1wps9q8 dir dir-ltr"
+            className="dark:invert i1wps9q8 dir dir-ltr"
+            // className="i1wps9q8 dir dir-ltr"
             src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg"
             alt=""
             width="24"

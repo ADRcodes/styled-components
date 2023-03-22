@@ -45,9 +45,8 @@ const TwoCardsWLrgImg = () => {
           src="https://player.vimeo.com/video/312278488?h=bc370b44e2"
           width="400"
           height="300"
-          frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen></iframe>
+          ></iframe>
         <div className="flex justify-between items-center">
           <p>Lorem ipsum dolor sit amet?</p>
           <button className="button1">Click</button>
