@@ -34,6 +34,9 @@
   .input1 {
     @apply rounded-md border-slate-200 shadow-sm hover:shadow-lg transition-shadow;
   }
+  .component-container {
+    @apply bg-white rounded-lg shadow dark:bg-gray-900 m-4;
+  }
 }
 
 /* :root {

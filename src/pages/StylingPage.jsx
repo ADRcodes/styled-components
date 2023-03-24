@@ -14,7 +14,7 @@ const StylingPage = () => {
   return (
     <div className="h-[600px] p-5">
       <div className="flex">
-        <div className="w-1/3 pr-2 flex flex-col">
+        <div className="w-1/3 px-2 flex flex-col">
           <h1 className="heading1 w-fit p-4 my-2 rounded-lg">
             {sampleText.h1}
           </h1>
@@ -42,7 +42,7 @@ const StylingPage = () => {
           </p>
           <button className="button1">Button</button>
         </div>
-        <div className="w-1/3 flex flex-col pl-2">
+        <div className="w-1/3 flex flex-col px-2">
           <h1 className="heading1 w-fit bg-secondary text-text_dark p-4 my-2 rounded-lg">
             {sampleText.h1}
           </h1>
@@ -90,12 +90,13 @@ const StylingPage = () => {
             />
           </div>
           <div>
-            <h3 className="heading3">Text</h3>
-            <input
+            <h3 className="heading3">Body Copy</h3>
+            <textarea
               type="text"
               name="copy"
               onChange={handleChange}
-              className="input1"
+              rows="1"
+              className="input1 whitespace-normal"
             />
           </div>
         </form>

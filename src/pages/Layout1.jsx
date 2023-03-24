@@ -1,5 +1,5 @@
 import React from "react"
-import Footer1 from "../components/Layout1/Footer1"
+import Footer1 from "../components/footers/Footer1"
 import Hero1 from "../components/Layout1/Hero1"
 import SmallTextSection1 from "../components/Layout1/SmallTextSection1"
 import TwoCardsWLrgImg from "../components/Layout1/TwoCardsWLrgImg"

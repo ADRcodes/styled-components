@@ -1,6 +1,5 @@
 import React from "react"
-import logo from "/vite.svg"
-import airnbnblogo from "../assets/airbnb.svg"
+import airnbnblogo from "../assets/SVGs/airbnb.svg"
 
 const Airbnb = () => {
   return (
