@@ -36,6 +36,11 @@ const Nav = () => {
             className="inline-block  mr-6 font-bold">
             Layout 1
           </Link>
+          <Link
+            to="/bellroy"
+            className="inline-block  mr-6 font-bold">
+            Bellroy
+          </Link>
           <ThemeIcon />
         </div>
         <p className="hidden md:block px-2">Login</p>

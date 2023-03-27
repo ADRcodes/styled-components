@@ -4,6 +4,7 @@ import About from "./pages/About"
 import Pricing from "./pages/Pricing"
 import Layout1 from "./pages/Layout1"
 import Nav from "./components/Nav"
+import Bellroy from "./pages/Bellroy"
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
           path="/layout1"
           element={<Layout1 />}
         />
+        <Route
+          path="/bellroy"
+          element={<Bellroy />}
+        />
+
         {/* <Route
           path="*"
           element={<NotFound />}
