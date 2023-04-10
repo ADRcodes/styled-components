@@ -37,9 +37,14 @@ const Nav = () => {
             Layout 1
           </Link>
           <Link
-            to="/bellroy"
+            to="/ready"
             className="inline-block  mr-6 font-bold">
-            Bellroy
+            Ready
+          </Link>
+          <Link
+            to="/inq"
+            className="inline-block  mr-6 font-bold">
+            InQ
           </Link>
           <ThemeIcon />
         </div>

@@ -7,7 +7,7 @@ import Nav from "../components/Nav"
 
 const Layout1 = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Nav />
       <Hero1 />
       <SmallTextSection1 />

@@ -3,7 +3,7 @@ import pic from "/vite.svg"
 
 const Hero1 = () => {
   return (
-    <div className="flex justify-around items-center p-10">
+    <div className="flex justify-around items-center p-10 gap-10">
       <div>
         <div>
           <img

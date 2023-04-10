@@ -2,7 +2,7 @@ import React from "react"
 
 const SmallTextSection1 = () => {
   return (
-    <div className="flex flex-col p-10 border-2">
+    <div className="flex flex-col section-container">
       <h2 className="heading2">SmallTextSection1</h2>
       <div className="flex gap-10">
         <p>

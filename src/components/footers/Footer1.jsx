@@ -5,7 +5,7 @@ const Footer1 = () => {
   return (
     <footer>
       <div className="w-full container mx-auto p-4 md:px-6 md:py-8">
-        <div className="sm:flex sm:items-center sm:justify-between">
+        <div className="sm:flex sm:items-center sm:justify-between gap-10">
           <a
             href="#"
             className="flex items-center mb-4 sm:mb-0">
